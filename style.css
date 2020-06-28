@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.slider-header{
+    background: url(images/back.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+.slid-show {
+    padding: 6em 3em; 
+}
+img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.slider{
+    position: relative;
+}
+.slider .left-slide, .slider .right-slide {
+    position: absolute;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    top: 50%;
+ }
+
+ .slider .left-slide{
+    left:30px;
+    font-size: 30px;
+}
+ .slider .right-slide{
+    right: 30px;
+    font-size: 30px;
+ }
+ .slider .left-slide:hover, .slider .right-slide:hover{
+    cursor: pointer;
+    opacity: 0.5;
+ } 
+ 
